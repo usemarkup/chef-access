@@ -1,0 +1,5 @@
+name              "access"
+maintainer        "Markup"
+description       "Creates users for deployment / file access"
+version           "0.0.1"
+depends           "user"

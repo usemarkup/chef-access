@@ -1,0 +1,11 @@
+language: ruby
+before_install:
+  - gem install bundler
+branches:
+  - only:
+      - travisci
+      - master
+env:
+    - CHEF_VERSION=13
+rvm:
+  - 2.6

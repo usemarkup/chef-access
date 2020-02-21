@@ -1,5 +1,5 @@
 language: ruby
 before_install:
-  - gem install bundler
+  - make bundle
 rvm:
   - 2.6
